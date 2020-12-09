@@ -2,7 +2,7 @@
 
   CREATE TABLE jokes (
   ID int NOT NULL,
-  Jokes varchar(400) NOT NULL,
+  Jokes varchar(255) NOT NULL, 
   PRIMARY KEY (ID)
   );
 
