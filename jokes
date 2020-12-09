@@ -1,0 +1,9 @@
+//This is a create table statement in MariaDB using the MariaDB CLI. It creates a table with 2 columns: ID and Jokes. Primary Key is for ID.
+
+  CREATE TABLE jokes (
+  ID int NOT NULL,
+  Jokes varchar(400) NOT NULL,
+  PRIMARY KEY (ID)
+  );
+
+-end-
